@@ -5,7 +5,7 @@ import {FaTwitter,FaGithub,FaLinkedin} from 'react-icons/fa'
 const Main = () => {
   return (
     <div id='main'>
-      <img className=' w-full h-screen object-cover ' src="https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+      <img className=' w-full h-screen object-cover object-left' src="https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/20'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Deepjyoti Sarmah</h1>
