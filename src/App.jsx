@@ -1,3 +1,5 @@
+import Contects from './components/Contects'
+import Footer from './components/Footer'
 import Main from './components/Main'
 import Projects from './components/Projects'
 import Sidenav from './components/Sidenav'
@@ -11,6 +13,8 @@ function App() {
       <Main></Main>
       <Work></Work>
       <Projects></Projects>
+      <Contects></Contects>
+      <Footer></Footer>
     </div>
   )
 }
