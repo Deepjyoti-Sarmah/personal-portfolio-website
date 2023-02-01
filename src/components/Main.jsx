@@ -26,9 +26,15 @@ const Main = () => {
     />
           </h2>
           <div className=' flex justify-between pt-6 max-w-[200px] w-full'>
-            <FaTwitter className='cursor-pointer' size={20} />
-            <FaGithub className='cursor-pointer' size={20} />
-            <FaLinkedin className='cursor-pointer' size={20} />
+            <a href='https://twitter.com/Deepjyo79836591'>
+              <FaTwitter className='cursor-pointer' size={20} />
+            </a>
+            <a href="https://github.com/Deepjyoti-Sarmah">
+              <FaGithub className='cursor-pointer' size={20} />
+            </a>
+            <a href="https://www.linkedin.com/in/deepjyoti-sarmah-539b96202/">
+              <FaLinkedin className='cursor-pointer' size={20} />
+            </a>
           </div>
         </div>
       </div>

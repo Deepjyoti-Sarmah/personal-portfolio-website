@@ -11,13 +11,12 @@ const Projects = () => {
     <div id='projects' className='max-w-[1040] m-auto md:pl-20 p-4 py-16'>
       <h1 className=' text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
       <p className='text-center py-8'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aspernatur aliquid, vel voluptatibus earum dolore ratione minima odit, temporibus, recusandae pariatur ut maiores! Totam repellendus similique, accusantium cupiditate blanditiis ratione!
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
-        <ProjectItems img= {BuyMeMilk} title = "BuyMeMilk App"/>
-        <ProjectItems img= {GoBlockchain} title = "Personal Blockchain"/>
-        <ProjectItems img= {ChatBit} title = "ChatBit App"/>
-        <ProjectItems img= {MovieArt} title = "MovieArt App"/>
+        <ProjectItems img= {BuyMeMilk} title = "BuyMeMilk App" tech = "React, Hardhar, Solidity" link = "https://buymemilk.netlify.app/"/>
+        <ProjectItems img= {GoBlockchain} title = "Go Blockchain" tech= "Go, Mux" link = "https://github.com/Deepjyoti-Sarmah/Blockchain-with-go"/>
+        <ProjectItems img= {ChatBit} title = "ChatBit App" tech= "React, Tailwind, OpenAI" link = "https://codebit.vercel.app/"/>
+        <ProjectItems img= {MovieArt} title = "MovieArt App" tech= "JavaScript, MongoDB" link = "https://github.com/Deepjyoti-Sarmah/Movie-Art" />
       </div>
     </div>
   )

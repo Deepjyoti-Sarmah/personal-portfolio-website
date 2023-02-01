@@ -11,7 +11,7 @@ function App() {
     <div >
       <Sidenav></Sidenav>
       <Main></Main>
-      <Work></Work>
+      {/* <Work></Work> */}
       <Projects></Projects>
       <Contects></Contects>
       <Footer></Footer>
