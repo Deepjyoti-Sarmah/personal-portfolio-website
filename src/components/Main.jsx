@@ -12,7 +12,7 @@ const Main = () => {
           <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>I am a 
             <TypeAnimation
       sequence={[
-        'Blockchain Developer', 
+        'Developer', 
         2000, // Waits 1s
         'Coder', 
         2000,// Waits 2s
