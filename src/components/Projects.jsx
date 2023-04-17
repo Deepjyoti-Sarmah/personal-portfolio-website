@@ -5,6 +5,8 @@ import ChatBit from "../assets/ChatBit.png"
 import MovieArt from "../assets/MovieArt.png"
 import GoBlockchain from "../assets/GoBlockchain.png"
 import Web3Storage from "../assets/Web3Storage.png"
+import AiArtGasslessNFT from "../assets/AIArtGasslessNFT.png"
+import SolanaAirdrop from "../assets/SolanaAirdrop.png"
 
 
 
@@ -17,7 +19,8 @@ const Projects = () => {
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItems img={BuyMeMilk} title="BuyMeMilk App" tech="React, Hardhart, Solidity" link="https://buymemilk.netlify.app/" />
         <ProjectItems img={Web3Storage} title="File Store Web3" tech="React, Solidity, NFT.store" link="https://web3-storage-dapp.vercel.app/" />
-
+        <ProjectItems img={AiArtGasslessNFT} title="AI NFT Gassless " tech="React, Stable Diffusion, NFT.port" link="https://ainftgassless.vercel.app/" />
+        <ProjectItems img={SolanaAirdrop} title="Solana Airdrop App" tech="React, Solana/Web3.js" link="https://solana-airdrop-three.vercel.app/" />
         <ProjectItems img={GoBlockchain} title="Go Blockchain" tech="Go, Mux" link="https://github.com/Deepjyoti-Sarmah/Blockchain-with-go" />
         <ProjectItems img={ChatBit} title="ChatBit App" tech="React, Tailwind, OpenAI" link="https://codebit.vercel.app/" />
         <ProjectItems img={MovieArt} title="MovieArt App" tech="JavaScript, MongoDB" link="https://github.com/Deepjyoti-Sarmah/Movie-Art" />
